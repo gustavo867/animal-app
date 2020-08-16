@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Image, ImageSourcePropType } from 'react-native';
+import { View, Image, ImageSourcePropType, Text } from 'react-native';
 
 import styles from './styles';
 
@@ -9,9 +9,17 @@ interface ImageProps {
   owner?: boolean;
 }
 
-const ProfileImage: React.FC<ImageProps> = ({ img }) => {
+const ProfileImage: React.FC<ImageProps> = ({ img, name, owner }) => {
   return (
-    <Image style={styles.image} source={img}/>
+    <View style={{ flexDirection: 'row', }}>
+      <Image style={[styles.image, {
+        marginRight: name !== undefined ? 10 : 20
+      }]} source={img}/>
+      <View>
+        <Text style={styles.name}>{name}</Text>
+        <Text style={styles.owner}>{owner === true ? 'owner' : ''}</Text>
+      </View>
+    </View>
   );
 }
 

@@ -1,7 +1,11 @@
 import product_0 from '../assets/images/bird.jpg'
 import product_1 from '../assets/images/sparrow.jpg';
-import product_2 from '../assets/images/bird.jpg';
+import product_2 from '../assets/images/harley.jpg';
 import product_3 from '../assets/images/sunshine.jpg';
+
+import birdIcon from '../assets/images/icons/bird-icon.png'
+import dogIcon from '../assets/images/icons/dog-icon.png'
+import catIcon from '../assets/images/icons/cat-icon.png'
 
 export function getBirds() {
     const data = [
@@ -11,8 +15,9 @@ export function getBirds() {
         name: 'Bluebird',
         price: '$ 22.99',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus libero eget ligula posuere ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend, mi non sollicitudin venenatis, dolor ex condimentum nulla, a volutpat massa leo ut purus. Donec a nisi quam. Etiam quis ultricies eros, quis fermentum tortor. Cras scelerisque enim velit, et euismod quam lacinia vitae. Ut mattis interdum massa, luctus mattis sapien viverra vel. Integer efficitur arcu et neque hendrerit convallis. In lacinia tincidunt enim. Quisque sem justo, ultrices et diam ut, rutrum porta diam. Nunc convallis, metus vitae tincidunt elementum, mauris metus ultricies orci, eget elementum tortor arcu eu tortor. Sed sem orci, vehicula vitae porta quis, pulvinar vitae odio. Nulla fermentum sagittis arcu at pulvinar. Nunc ac bibendum orci. Proin tempus nisl id lectus sollicitudin, nec dapibus nisl rhoncus. Duis nec nisi nunc.',        
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus libero eget ligula posuere ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend, mi non sollicitudin venenatis, dolor ex condimentum nulla, a volutpat massa leo ut purus. Donec a nisi quam.',        
         category: 'Birds',
+        rating: 4.5
       },
       {
         id: '2',
@@ -20,8 +25,9 @@ export function getBirds() {
         name: 'Sparrow',
         price: '$ 22.99',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus libero eget ligula posuere ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend, mi non sollicitudin venenatis, dolor ex condimentum nulla, a volutpat massa leo ut purus. Donec a nisi quam. Etiam quis ultricies eros, quis fermentum tortor. Cras scelerisque enim velit, et euismod quam lacinia vitae. Ut mattis interdum massa, luctus mattis sapien viverra vel. Integer efficitur arcu et neque hendrerit convallis. In lacinia tincidunt enim. Quisque sem justo, ultrices et diam ut, rutrum porta diam. Nunc convallis, metus vitae tincidunt elementum, mauris metus ultricies orci, eget elementum tortor arcu eu tortor. Sed sem orci, vehicula vitae porta quis, pulvinar vitae odio. Nulla fermentum sagittis arcu at pulvinar. Nunc ac bibendum orci. Proin tempus nisl id lectus sollicitudin, nec dapibus nisl rhoncus. Duis nec nisi nunc.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus libero eget ligula posuere ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend, mi non sollicitudin venenatis, dolor ex condimentum nulla, a volutpat massa leo ut purus. Donec a nisi quam.',
         category: 'Birds',
+        rating: 3.9
       },
       {
         id: '3',
@@ -29,8 +35,9 @@ export function getBirds() {
         name: 'Harley ||',
         price: '$ 22.99',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus libero eget ligula posuere ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend, mi non sollicitudin venenatis, dolor ex condimentum nulla, a volutpat massa leo ut purus. Donec a nisi quam. Etiam quis ultricies eros, quis fermentum tortor. Cras scelerisque enim velit, et euismod quam lacinia vitae. Ut mattis interdum massa, luctus mattis sapien viverra vel. Integer efficitur arcu et neque hendrerit convallis. In lacinia tincidunt enim. Quisque sem justo, ultrices et diam ut, rutrum porta diam. Nunc convallis, metus vitae tincidunt elementum, mauris metus ultricies orci, eget elementum tortor arcu eu tortor. Sed sem orci, vehicula vitae porta quis, pulvinar vitae odio. Nulla fermentum sagittis arcu at pulvinar. Nunc ac bibendum orci. Proin tempus nisl id lectus sollicitudin, nec dapibus nisl rhoncus. Duis nec nisi nunc.',       
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus libero eget ligula posuere ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend, mi non sollicitudin venenatis, dolor ex condimentum nulla, a volutpat massa leo ut purus. Donec a nisi quam.',       
         category: 'Birds',
+        rating: 5.0
       },
       {
         id: '4',
@@ -38,8 +45,9 @@ export function getBirds() {
         name: 'Sunshine',
         price: '$ 22.99',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus libero eget ligula posuere ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend, mi non sollicitudin venenatis, dolor ex condimentum nulla, a volutpat massa leo ut purus. Donec a nisi quam. Etiam quis ultricies eros, quis fermentum tortor. Cras scelerisque enim velit, et euismod quam lacinia vitae. Ut mattis interdum massa, luctus mattis sapien viverra vel. Integer efficitur arcu et neque hendrerit convallis. In lacinia tincidunt enim. Quisque sem justo, ultrices et diam ut, rutrum porta diam. Nunc convallis, metus vitae tincidunt elementum, mauris metus ultricies orci, eget elementum tortor arcu eu tortor. Sed sem orci, vehicula vitae porta quis, pulvinar vitae odio. Nulla fermentum sagittis arcu at pulvinar. Nunc ac bibendum orci. Proin tempus nisl id lectus sollicitudin, nec dapibus nisl rhoncus. Duis nec nisi nunc.',       
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus libero eget ligula posuere ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend, mi non sollicitudin venenatis, dolor ex condimentum nulla, a volutpat massa leo ut purus. Donec a nisi quam.',       
         category: 'Birds',
+        rating: 3.2
       }
     ];
   
@@ -48,10 +56,21 @@ export function getBirds() {
 
 export function getCategories() {
   const categories = [
-    "All",
-    "Birds",
-    "Dogs",
-    "Cats"
+    {
+      name: "Birds",
+      image: birdIcon,
+      color: '#BEE5BF'
+    },
+    {
+      name: "Dogs",
+      image: dogIcon,
+      color: '#FFD1BA'
+    },
+    {
+      name: "Cats",
+      image: catIcon,
+      color: 'rgba(206, 125, 165, 0.4)'
+    },
   ]
   return categories
 }
